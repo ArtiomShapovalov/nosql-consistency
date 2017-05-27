@@ -1,4 +1,4 @@
-![Alt text](../img/web-screenshot.png?raw=true "Web-демонстрация работы тестов")
+![web-screenshot](./img/web-screenshot.png?raw=true "Web-демонстрация работы тестов")
 ## Фреймворк оценки согласованности данных NoSQL систем
 
 Включает реализацию тестов и оценку согласованности данных для NoSQL систем:
