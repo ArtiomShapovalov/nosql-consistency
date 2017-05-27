@@ -1,0 +1,16 @@
+li {
+  font-size: 24px;
+}
+
+.selectInner {
+  width: 295px;
+}
+
+.formInner {
+  padding: 5% 15% 0%;
+}
+
+.infoInner {
+  padding: 20px 20px;
+  background-color: #e3e3e3;
+}
