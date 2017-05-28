@@ -59,30 +59,6 @@ app.get('/', (req, res) => {
   });
 })
 
-app.post('/', (req, res) => {
-  const body = req.body;
-  console.log(body)
-
-  var MongoClient = mongodb.MongoClient;
-  var url = 'mongodb://localhost:27017/todo';
-
-  MongoClient.connect(url, function (err, db) {
-    if (err) {
-      console.log('Unable to connect to the Server', err);
-    } else {
-      console.log('Connection established to', url);
-      var collection = db.collection('todos');
-
-      collection.insert(body, function (err, result) {
-        console.log('res:')
-        console.log(result)
-        res.set('Content-Type', 'application/json');
-        res.send(result);
-      });
-    }
-  });
-})
-
 // TESTS
 
 const SUCCESS = 1
